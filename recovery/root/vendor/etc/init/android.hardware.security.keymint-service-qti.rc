@@ -2,20 +2,5 @@
 # All Rights Reserved.
 # Confidential and Proprietary - Qualcomm Technologies, Inc.
 #
-# MODIFIED: Use onekeymint-service-qti instead of keymint-service-spu-qti
-# to avoid SPU initialization failure in recovery mode.
-# The SPU keymint crashes because it tries to register IKeyMintDevice/strongbox
-# which is not declared in the VINTF manifest.
-
-service vendor.keymint-qti /vendor/bin/hw/android.hardware.security.onekeymint-service-qti
-    class early_hal
-    user system
-    group system drmrpc
-    disabled
-    seclabel u:r:recovery:s0
-
-on property:vendor.car.hiber=hiberExit
-    stop vendor.keymint-qti
-    start vendor.keymint-qti
-    stop keystore2
-    start keystore2
+# KeyMint is started by android.hardware.security.onekeymint-service-qti.rc
+# after qseecomd registers its listener services.

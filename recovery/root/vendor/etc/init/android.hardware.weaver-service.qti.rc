@@ -1,5 +1,6 @@
 service vendor.weaver-service /vendor/bin/hw/android.hardware.weaver-service-spu-qti
     class early_hal
+    disabled
     user root
     group nfc root
     seclabel u:r:recovery:s0
