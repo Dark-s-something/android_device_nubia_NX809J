@@ -121,6 +121,36 @@ on boot
     chmod 0755 /lib/firmware
 
     chmod 0644 /lib/firmware/syna_firmware.img
+    chmod 0644 /lib/firmware/aw_touch0_0.bin
+    chmod 0644 /lib/firmware/aw_touch101_0.bin
+    chmod 0644 /lib/firmware/aw_touch102_0.bin
+    chmod 0644 /lib/firmware/aw_touch103_0.bin
+    chmod 0644 /lib/firmware/aw_touch104_0.bin
+    chmod 0644 /lib/firmware/aw_touch2_1.bin
+    chmod 0644 /lib/firmware/aw_touch2_3.bin
+    chmod 0644 /lib/firmware/aw_touch2_4.bin
+    chmod 0644 /lib/firmware/aw_touch2_5.bin
+    chmod 0644 /lib/firmware/aw_touch2_6.bin
+    chmod 0644 /lib/firmware/aw_touch2_7.bin
+    chmod 0644 /lib/firmware/aw_touch2_8.bin
+    chmod 0644 /lib/firmware/aw_touch2_9.bin
+    chmod 0644 /lib/firmware/aw_touch3_1.bin
+    chmod 0644 /lib/firmware/aw_touch3_3.bin
+    chmod 0644 /lib/firmware/aw_touch3_4.bin
+    chmod 0644 /lib/firmware/aw_touch3_5.bin
+    chmod 0644 /lib/firmware/aw_touch3_6.bin
+    chmod 0644 /lib/firmware/aw_touch3_7.bin
+    chmod 0644 /lib/firmware/aw_touch3_8.bin
+    chmod 0644 /lib/firmware/aw_touch3_9.bin
+    chmod 0644 /lib/firmware/aw_touch4_1.bin
+    chmod 0644 /lib/firmware/aw_touch4_3.bin
+    chmod 0644 /lib/firmware/aw_touch4_4.bin
+    chmod 0644 /lib/firmware/aw_touch4_5.bin
+    chmod 0644 /lib/firmware/aw_touch4_6.bin
+    chmod 0644 /lib/firmware/aw_touch4_7.bin
+    chmod 0644 /lib/firmware/aw_touch4_8.bin
+    chmod 0644 /lib/firmware/aw_touch4_9.bin
+    chmod 0644 /lib/firmware/touch_led_off.bin
     chmod 0644 /lib/firmware/haptic_ram.bin
 
     chmod 0644 /lib/firmware/awinic_haptic_params.bin

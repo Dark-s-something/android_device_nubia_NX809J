@@ -70,7 +70,7 @@ import /vendor/etc/ueventd.qcom.userdebug.rc
 # lixiong2@CONNECTIVITY.WIFI.HARDWARE.BDF.7516716, 2024.7.1, modify for 8750
 # firmware_directories /vendor/firmware_mnt/image/
 # else /* OPLUS_FEATURE_WIFI_BDF */
-firmware_directories /mnt/vendor/persist/copy/ /odm/etc/wifi/ /mnt/vendor/persist/ /vendor/firmware_mnt/image/
+firmware_directories /lib/firmware/ /mnt/vendor/persist/copy/ /odm/etc/wifi/ /mnt/vendor/persist/ /vendor/firmware_mnt/image/
 # endif /* OPLUS_FEATURE_WIFI_BDF */
 
 subsystem dma_heap
